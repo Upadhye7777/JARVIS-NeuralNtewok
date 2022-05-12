@@ -1,0 +1,23 @@
+from cProfile import label
+from ftplib import all_errors
+import json
+import numpy as np
+from operator import imod
+import torch
+import nltk 
+import torch.nn as nn
+from torch.utils.data import dataset,dataloader
+from NeuralNetwork import bag_of_words , tokenize , stem
+from Brain import NeuralNet
+
+
+
+
+,
+            {
+                "tag":"identity",
+                "patterns":[
+                ],
+                "responce":[
+                ]
+            }

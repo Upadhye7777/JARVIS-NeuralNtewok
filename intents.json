@@ -1,0 +1,70 @@
+{
+        "intents":[
+            {
+                "tag":"greeting",
+                "patterns":["hello","hii","hey","wake up","jarvis","wake up jarvis"
+                ],
+                "responce":["hello sir","how are you sir.","Always for you sir.","hello","Here's You Assistant."
+                ]
+            },
+            {
+                "tag":"bye",
+                "patterns":["bye","good bye","see you later","sleep","exit"
+                ],
+                "responce":["Bye","I am going.","bye sir","Good Bye","it'll be nice to meet you again","see you later"
+                ]
+            },
+            {
+                "tag":"health",
+                "patterns":["How are you?","How are things?","How's things?","How's it going?","How are you getting on?","How have you been?","What have you been (getting) up to?",
+                    "I hope everything's okay?","Alright?","How have you been keeping?"
+                ],
+                "responce":["Fine.","Perfect.","Cool.","Like You.","Are you Fine? I'm Fine"
+                ]
+            },
+            {
+                "tag":"identity",
+                "patterns":["your name","what is your name","Who are you","what are you"
+                ],
+                "responce":["jarvis","I am jarvis","An A.I Assistant","My name is Jarvis","I am Virtual Assistant"
+                ]
+            },
+            {
+                "tag":"time",
+                "patterns":["what is time","time","what's a time"
+                ],
+                "responce":["time"
+                ]
+            },
+            {
+                "tag":"date",
+                "patterns":["what is Date","Date"
+                ],
+                "responce":["date"
+                ]
+            },
+            {
+                "tag":"day",
+                "patterns":["what is day","day"
+                ],
+                "responce":["day"
+                ]
+            },
+            {
+                "tag":"wikipedia",
+                "patterns":["who is","about","what is","wikipedia"
+                ],
+                "responce":["wikipedia"
+                ]
+            },
+            {
+                "tag":"google",
+                "patterns":["google","search"
+                ],
+                "responce":["google"
+                ]
+            }
+            
+
+        ]
+}
